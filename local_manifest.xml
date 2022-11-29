@@ -8,7 +8,7 @@
           fetch="https://github.com/Vimal227" />
   
  <!-- Device Tree -->
- <project path="device/xiaomi/garden" name="android_device_xiaomi_garden.git" remote="vimal" revision="dot" />
+ <project path="device/xiaomi/garden" name="android_device_xiaomi_garden.git" remote="vimal" revision="ricedroid" />
  
  <!-- Vendor tree -->
  <project path="vendor/xiaomi/garden" name="android_vendor_xiaomi_garden.git" remote="adarsh" revision="twelve30" />
