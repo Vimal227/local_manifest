@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
 
-<remote name="atul"
-          fetch="https://github.com/Atul9977" />
+<remote name="adarsh"
+          fetch="https://github.com/adarsh956" />
 
 <remote name="vimal"
           fetch="https://github.com/Vimal227" />
@@ -11,6 +11,6 @@
  <project path="device/xiaomi/garden" name="android_device_xiaomi_garden.git" remote="vimal" revision="awaken" />
  
  <!-- Vendor tree -->
- <project path="vendor/xiaomi/garden" name="android_vendor_xiaomi_garden.git" remote="atul" revision="twelve30" />
+ <project path="vendor/xiaomi/garden" name="android_vendor_xiaomi_garden.git" remote="adarsh" revision="twelve30" />
 
 </manifest>
