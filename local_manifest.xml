@@ -3,9 +3,11 @@
 
 <remote name="Vimal"
           fetch="https://github.com/Vimal227" />
+
 <remote name="Atul"
           fetch="https://github.com/Atul9977" />
-  <!-- Trees -->
+ 
+ <!-- Trees -->
   <project path="device/xiaomi/garden" name="android_device_xiaomi_garden.git" remote="Vimal" revision="nusantara" />
   <project path="vendor/xiaomi/garden" name="android_vendor_xiaomi_garden.git" remote="Atul" revision="twelve30" /> 
  
