@@ -4,9 +4,15 @@
 <remote name="Vimal"
           fetch="https://github.com/Vimal227" />
 
+<remote name="arrow"
+          fetch="https://github.com/ArrowOS-Devices" />
+
  <!-- Trees -->
   <project path="device/xiaomi/garden" name="android_device_xiaomi_garden.git" remote="Vimal" revision="arrow" />
   <project path="vendor/xiaomi/garden" name="android_vendor_xiaomi_garden.git" remote="Vimal" revision="twelve30" /> 
+
+ <!-- Extras -->
+    <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
 
 </manifest>
 
