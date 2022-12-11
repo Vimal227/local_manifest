@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest> 
-
-<remote name="Vimal"
-          fetch="https://github.com/Vimal227" />
-
-    <!-- Trees --> 
-    <project path="device/xiaomi/garden" name="android_device_xiaomi_garden.git" remote="Vimal" revision="cipher" />
-    <project path="vendor/xiaomi/garden" name="android_vendor_xiaomi_garden.git" remote="Vimal" revision="twelve30" />
-
+<manifest>
+<!-- 
+  <remove-project name="device_mediatek_sepolicy_vndr" />
+  <project path="external/face_unlock" name="external_faceunlock" remote="github" revision="twelve" />
+ -->
+<project path="device/mediatek/sepolicy_vndr" name="Vimal227/android_device_mediatek_sepolicy_vndr" remote="github" revision="twelve"/>
+<project path="device/xiaomi/dandelion" name="Vimal227/android_device_xiaomi_dandelion" remote="github" revision="arrow"/>
+<!-- 
+  <project path="vendor/xiaomi/dandelion" name="Vimal227/android_vendor_xiaomi_dandelion" remote="github" revision="twelve30" />
+ -->
 </manifest>
